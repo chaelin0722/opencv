@@ -408,4 +408,6 @@ MigrationBackup/
 .ionide/
 
 *.exe
-
+*.bmp
+*.jpg
+*.jpeg
