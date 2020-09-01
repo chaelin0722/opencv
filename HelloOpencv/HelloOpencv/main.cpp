@@ -7,8 +7,8 @@ int main() {
 	cout << "hello Opencv" << CV_VERSION << endl;
 
 	Mat img;
-	img = imread(/**/);
-
+	img = imread("test.jpg");
+	
 	if (img.empty()) {
 		cerr << "Image load failed!" << endl;
 		return -1;
